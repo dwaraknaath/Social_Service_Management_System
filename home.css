@@ -1,0 +1,26 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+body{
+  background-image: url("bg4.jpg");
+  right: 90%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: rgba(236, 231, 231, 0.637);
+    border-radius: 10px;
+  }
+  .card:hover{
+    transform: scale(1.01);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.438), 0 4px 8px rgba(0,0,0,.06);
+}
+#DOE{
+  font-size: smaller;
+}
+#event{
+  text-transform: uppercase;
+  font-weight: bold;
+}

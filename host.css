@@ -1,0 +1,75 @@
+body{
+  background-image: url("bg7.jpg");
+  right: 90%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type=text] {
+    width: 50%;
+    padding: 9px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;}
+    input[type=text]:focus {
+        background-color: #ebebeb;
+        outline: none;
+      }
+input[type=date] {
+    display: inline-block;
+    border: none;
+    background: #f9f9f9;
+  }  
+  input[type=date]:focus {
+    background-color: white;
+    outline: none;
+  } 
+  input[type=tel] {
+    width: 25%;
+    display: inline-block;
+    border: none;
+    background: white;
+  } 
+  input[type=tel]:focus {
+    background-color: #f1f1f1;
+    outline: none;
+  } 
+  button {
+    background-color: #eabaf3;
+    color: rgb(4, 4, 4);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .submitbtn {
+    padding: 14px 20px;
+    background-color: #eb4141;
+    border-radius: 10px
+  }
+  .submitbtn:hover{
+    padding: 14px 20px;
+    background: #3A98B9;
+    color: white;
+  
+  }
+.card-wrap{
+    margin-top: 3%;
+    padding: 2%;
+    background-color: rgba(246, 248, 247, 0.784);
+    margin-bottom: 3%;
+    border-radius: 10px
+  }
+  .container {
+    padding: 16px;
+  }
+  .card-wrap:hover{
+    transform: scale(1.01);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.438), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+  
+  

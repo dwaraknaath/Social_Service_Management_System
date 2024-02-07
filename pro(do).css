@@ -1,0 +1,100 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box} 
+body{
+  background-image: url("bg.jpg");
+  right: 90%;
+  height:100%;
+  background-position: 100% 0;
+   background-repeat:no-repeat; 
+   background-size: cover;
+}
+input[type=text] {
+  width: 75%;
+  padding: 9px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fafafa;
+}  
+input[type=email] {
+  width: 75%;
+  padding: 9px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fafafa;
+} 
+input[type=number] {
+  width: 25%;
+  border: none;
+  background: #f6f6f6;
+}
+input[type=number]:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}  
+input[type=tel] {
+  width: 75%;
+  border: none;
+  background: #f6f6f6;
+} 
+input[type=tel]:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}     
+input[type=text]:focus {
+  background-color: #ebebeb;
+  outline: none;
+}
+input[type=date] {
+  width: 25%;
+  display: inline-block;
+  border: none;
+  background: #f9f9f9;
+}   
+input[type=date]:focus {
+  background-color: #f6f6f6;
+  outline: none;
+}
+hr {
+  border: 1px solid #e6c4df;
+  margin-bottom: 25px;
+}
+button {
+  background-color: #eabaf3;
+  color: rgb(4, 4, 4);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+.submitbtn {
+  padding: 14px 20px;
+  background-color: #eb4141;
+  border-radius: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card-wrap{
+  margin-top: 3%;
+  padding: 2%;
+  background-color: rgba(249, 249, 249, 0.893);
+  margin-bottom: 3%;
+  border-radius: 10px
+}
+.inputstate{
+  width: 25%;
+  padding: 9px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f8f8f8;
+}
